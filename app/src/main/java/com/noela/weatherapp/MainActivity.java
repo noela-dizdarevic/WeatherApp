@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         } catch (Exception e) {
 
-           // Toast.makeText(getApplicationContext(),"Could not found weather", Toast.LENGTH_LONG);
+           
 
             Message msg = handler.obtainMessage();
             msg.arg1 = 1;
